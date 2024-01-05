@@ -70,7 +70,7 @@ if login == 's':
     if suporte.é_número(resposta_usu):
         pass
     if resposta_usu == '1':
-        print(f'Atualmente, você tem: R${info_usu[id_usu]['conta']}.')
+        print(f'Atualmente, você tem: R${info_usu[id_usu][]}.')
 
 else:
     # print(f'O que? Erro no login senhor {nome}. O que aconteceu????????')
